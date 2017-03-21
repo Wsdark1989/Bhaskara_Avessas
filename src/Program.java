@@ -17,22 +17,17 @@ public class Program {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //Teste
         Scanner leitor = new Scanner (System.in);    
        
        // Entrada
-        System.out.println("x1:");
-        double x1 = leitor.nextDouble();
-        System.out.println("x2:");
-        double x2 = leitor.nextDouble();
-        System.out.println("c:");
-        double c = leitor.nextDouble();
         
-        //System.out.println("x1:");
-        //double x1 = Double.parseDouble(leitor.nextLine());
-        //System.out.println("x2:");
-        //double x2 = Double.parseDouble(leitor.nextLine());
-        //System.out.println("c:");
-        //double c = Double.parseDouble(leitor.nextLine());
+        System.out.println("x1:");
+        double x1 = Double.parseDouble(leitor.nextLine());
+        System.out.println("x2:");
+        double x2 = Double.parseDouble(leitor.nextLine());
+        System.out.println("c:");
+        double c = Double.parseDouble(leitor.nextLine());
         
        //Processamento
        double soma = x1 + x2;
